@@ -8,10 +8,10 @@ public class MouseClick {
 
     public static void main(String[] args) throws Exception{
         Robot r = new Robot();
-        int iterations = 30;
+        int iterations = 240;
 
-        int xrange[] = new int[]{1390, 1411};
-        int yrange[] = new int[]{578, 594};
+        int xrange[] = new int[]{937, 980};
+        int yrange[] = new int[]{305, 318};
 
         int xout[] = new int[]{4, 1439};
         int yout[] = new int[]{27, 808};
@@ -39,7 +39,7 @@ public class MouseClick {
 
             moveMouse(r, xo, yo);
 
-            Thread.sleep((int)(Math.random()*9000)+45000);
+            Thread.sleep((int)(Math.random()*9000)+43000);
         }
     }
 
